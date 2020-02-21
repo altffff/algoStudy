@@ -74,7 +74,6 @@ public class Main{
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j < N; j++) {
 				if (newmap[i][j] == 1) { // 집이면 치킨집부터 거리잼
-					//System.out.println("하이");
 					int min = Integer.MAX_VALUE;
 					for (int k = 0; k < chick.size(); k++) {
 						int a = chick.get(k)[0];

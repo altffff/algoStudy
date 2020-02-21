@@ -52,8 +52,8 @@ public class Main{
 			}
 		}
 		for(int i=0; i<T; i++) {
-			spread();
-			wind();
+			spread(); //먼지 퍼지기
+			wind();   //바람불기
 		}
 		ans=0;
 		for(int i=0; i<R; i++) {
